@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://imovies-backend-j9rg.onrender.com/', 
+  baseURL: 'https://imovies-backend-j9rg.onrender.com/api',
 });
 
 API.interceptors.request.use((req) => {
